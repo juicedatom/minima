@@ -8,6 +8,7 @@
   * Fix custom-styles.scss name in README (#610)
   * Improve the msg to enable disqus in README (#627)
   * Make docs consistent with code (#657)
+  * Highlight that the base branch is v3 (#719)
 
 ### Minor Enhancements
 
@@ -41,6 +42,8 @@
   * Drop support for scalar &#39;author&#39; configuration (#384)
   * Place skins in `minima/skins` to clarify purpose (#479)
   * Add adaptive skin: `solarized` (#594)
+  * Generate social iconsheet during build (#686)
+  * Rename `default` layout to `base` (#690)
 
 ### Bug Fixes
 
@@ -59,6 +62,10 @@
   * Fix script used for Google Analytics (#596)
   * Open social links in new tabs (#625)
   * change base-font-family sequence (#654)
+  * Fix responsiveness of social SVG sprites (#677)
+  * Improve &#34;Subscribe&#34; link in footer (#698)
+  * Fix deprecation warnings from Dart Sass (#700)
+  * Fix reference to base layout in `404.html` (#713)
 
 ### Development Fixes
 
@@ -69,6 +76,9 @@
   * Conditionally load GFM-parser gem in CI builds (#535)
   * Improve CI workflow configuration (#609)
   * Migrate from TravisCI to GitHub Actions (#633)
+  * Build and deploy demo site via GH Action workflow (#636)
+  * Improve readability of config file (#703)
+  * Trigger demo-site build manually (#714)
 
 ## 2.5.1
 
